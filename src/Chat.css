@@ -1,0 +1,29 @@
+.user, .you {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: fit-content;
+    max-width: 20rem;
+    margin: 0 0 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+}
+
+.user {
+    background-color: #DCF7C5;
+    margin-right: auto;
+}
+
+.you {
+    background-color: #F6F6F6;
+    margin-left: auto;
+}
+
+.message {
+    width: 100%;
+}
+
+.time {
+    font-size: 0.7rem;
+}

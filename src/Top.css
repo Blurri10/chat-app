@@ -1,0 +1,37 @@
+.Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F6F6F6;
+}
+
+.Top .details, .Top .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Top .details div, .Top .details svg, .Top .icons svg {
+    margin: 0 0.5rem;
+}
+
+.Top > div:nth-child(1) {
+    flex: 2;
+}
+
+.Top .username {
+    width: 100%;
+}
+
+.Top .icons {
+    align-items: flex-end;
+}
+
+.Top svg {
+    width: 2rem;
+    height: 2rem;
+}

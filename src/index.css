@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+
+html, body, :root {
+    width: 100%;
+}
+
+:root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+#back {
+    transform: rotate(90deg);
+}
+
+.photo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #888888;
+}
+
+img {
+    min-width: 3rem;
+    min-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (min-width: 820px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .hide {
+        display: revert;
+    }
+
+    .ChatTab {
+        max-width: 35rem;
+    }
+}

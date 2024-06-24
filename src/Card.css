@@ -1,0 +1,56 @@
+.Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.25rem;
+    border-radius: 1rem;
+    border: 1px solid #DADADA;
+    transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.Card:hover {
+    background-color: #DADADA;
+}
+
+.Card > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Card .username, .Card .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0.7rem;
+}
+
+.Card > div:nth-child(1) {
+    flex: 2;
+}
+
+.Card .username {
+    width: 100%;
+}
+
+.Card .time {
+    align-items: flex-end;
+}
+
+.Card .unread {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    background-color: #3BA55D;
+}
