@@ -8,6 +8,6 @@ Step 1: Fork this repo
 
 Step 2: Clone the forked repo onto your local machine. You can do this by manually downloading the repo from GitHub or by running `git clone <url>`
 
-Step 3: Once on your local machine, fire up the terminal and enter `npm install`
+Step 3: Once on your local machine, open up the file in your IDE. Fire up the terminal and enter `npm install`
 
 Step 4: Enter `npm run dev` to get a live preview of the file locally.
