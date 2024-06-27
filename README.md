@@ -1,8 +1,13 @@
-# React + Vite
+# Chat App Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts the source files for an interview assignment. You can check the live site [here](https://basil-dummy-chat-app.netlify.app/).
 
-Currently, two official plugins are available:
+To run it locally, do the following:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 1: Fork this repo
+
+Step 2: Clone the forked repo onto your local machine. You can do this by manually downloading the repo from GitHub or by running `git clone <url>`
+
+Step 3: Once on your local machine, fire up the terminal and enter `npm install`
+
+Step 4: Enter `npm run dev` to get a live preview of the file locally.
