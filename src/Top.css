@@ -6,6 +6,8 @@
     width: 100%;
     padding: 1rem;
     background-color: #F6F6F6;
+    position: relative;
+    bottom: 0;
 }
 
 .Top .details, .Top .icons {
