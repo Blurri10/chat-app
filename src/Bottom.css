@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 
@@ -45,6 +45,12 @@
 .Bottom .svg {
     width: 2rem;
     height: 2rem;
+}
+
+@media screen and (min-width: 820px) {
+    .Bottom {
+        position: relative;
+    }
 }
 
 /*.buttons {*/
