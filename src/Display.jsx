@@ -6,9 +6,8 @@ export default function Display({active=0}) {
 
     return (
         <div className="Display">
-            <ChatTab/>
-            <ChatWindow num={active}/>
+            <ChatTab num1={active}/>
+            <ChatWindow num2={active}/>
         </div>
-
     )
 }
