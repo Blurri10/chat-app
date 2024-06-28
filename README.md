@@ -1,6 +1,6 @@
 # Chat App Assignment
 
-This repository hosts the source files for an interview assignment. You can check the live site [here](https://basil-dummy-chat-app.netlify.app/).
+This repository hosts the source files for an interview assignment. You can check the live site [here](https://basil-chatapp-v2.netlify.app/).
 
 To run it locally, do the following:
 
